@@ -12,6 +12,7 @@ requires:
 
 provides:
   Quickie
+  Browser.Plugins.QuickTime
 
 ...
 */
@@ -131,4 +132,20 @@ provides:
 		}
 	}
 
+})();
+
+Browser.Plugins.QuickTime = (function(){
+	if (navigator.plugins) {
+		for (var i = 0, l = navigator.plugins.length; i < l; i++) {
+			if (navigator.plugins[i].name.indexOf('QuickTime') >= 0) {
+				return true;
+			}
+		}
+	} else {
+		try { var test = new ActiveXObject('QuickTime.QuickTime'); }
+		catch(e) {}
+		
+		if (test) { return true; }
+	}
+	return false;
 })();
