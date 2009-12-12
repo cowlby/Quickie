@@ -5,7 +5,7 @@ Creates and returns a QuickTime Element using supplied parameters. I followed th
 
 ### Implements:
 
-Options
+Options, Events
 
 
 Quickie Method: constructor {#Quickie:constructor}
