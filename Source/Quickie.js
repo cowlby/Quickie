@@ -10,9 +10,7 @@ authors:
 requires:
   core/1.2.4: [Browser, Class.Extras, Array, Hash, Element, Element.Event]
 
-provides:
-  Quickie
-  Browser.Plugins.QuickTime
+provides: [Quickie, Browser.Plugins.QuickTime]
 
 ...
 */
