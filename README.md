@@ -3,7 +3,7 @@ Quickie
 
 Quickie is a small MooTools class to embed QuickTime objects into your website. It is based on the Swiff class provided by MooTools so if you’re familiar with that class, you’ll find yourself at home with this one.
 
-!(Screenshot)[http://pradador.com/images/mootools/quickie.screenshot.jpg]
+![Screenshot](http://pradador.com/images/mootools/quickie.screenshot.jpg)
 
 Features
 --------
