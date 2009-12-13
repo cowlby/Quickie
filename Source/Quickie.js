@@ -8,7 +8,7 @@ authors:
 - Jose Prado
 
 requires:
-  core/1.2.4: [Browser, Class.Extras, Array, Hash, Element, Element.Event]
+  core/1.2.4: [Browser, Class, Options, Events, Array, Hash, Element, Element.Event]
 
 provides: [Quickie, Browser.Plugins.QuickTime]
 
